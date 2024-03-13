@@ -14,7 +14,7 @@ A small parsing library designed for my personal projects.
 #include <osp/osr/replay_file.h>
 
 int main() {
-    const auto replay = osp::osu::from_file("test.osr");
+    const auto replay = osp::osr::from_file("test.osr");
 
     if(replay == nullptr) {
       // Handle invalid case...
